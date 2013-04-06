@@ -1,3 +1,3 @@
 Do you have a piece of code that you'd like to save to Evernote? Do you just want to add a quick note straight from command line? It would be nice to have a command line interface to Evernote...Using the example http://dev.evernote.com/start/guides/, I wrote a quick interface that allows you to do just that.
 
-Please make sure that you get a an Authorisation Token from either https://sandbox.evernote.com/api/DeveloperToken.action or https://wwww.evernote.com/api/DeveloperToken.action (depending if you want to save notes against a sandbox environtment for testing or against your real notebook)
+Please make sure that you get a an Authorisation Token from either https://sandbox.evernote.com/api/DeveloperToken.action or https://wwww.evernote.com/api/DeveloperToken.action (depending if you want to save notes against a sandbox environtment for testing or against your real notebook) and edit note.php @ line 43 (addNote function, $authToken variable)
