@@ -88,7 +88,7 @@ if ($argc != 4 || in_array($argv[1], array('--help', '-help', '-h', '-?'))) {
         //parse file
         if (!file_exists($content)) {
             echo "The file defined cannot be found - make sure you entered the right file (" . $content . ") and that you're using the right parameter ('file').";
-            helo();
+            help();
             exit();
         } else {
             $content = file_get_contents($content);
