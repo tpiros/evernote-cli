@@ -91,7 +91,7 @@ if ($argc != 4 || in_array($argv[1], array('--help', '-help', '-h', '-?'))) {
             help();
             exit();
         } else {
-            $content = file_get_contents($content);
+            $content = htmlentities(file_get_contents($content));
             addnote($title, $content);
         }
     }
